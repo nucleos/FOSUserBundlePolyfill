@@ -1,332 +1,217 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Call to method Symfony\\\\Component\\\\HttpFoundation\\\\Request\\:\\:hasSession\\(\\) will always evaluate to true\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:27 will always evaluate to true\\.$#"
 			count: 1
-			path: src/Action/LoginAction.php
+			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Parameter \\#1 \\$username of method Nucleos\\\\UserBundle\\\\Util\\\\UserManipulator\\:\\:activate\\(\\) expects string, array\\<string\\>\\|string\\|null given\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'FOS\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:27 will always evaluate to true\\.$#"
 			count: 1
-			path: src/Command/ActivateUserCommand.php
+			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Parameter \\#2 \\.\\.\\.\\$args of function sprintf expects bool\\|float\\|int\\|string\\|null, array\\<string\\>\\|string\\|null given\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:36 will always evaluate to true\\.$#"
 			count: 1
-			path: src/Command/ActivateUserCommand.php
+			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Only booleans are allowed in a negated boolean, array\\<string\\>\\|string\\|null given\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'FOS\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:36 will always evaluate to true\\.$#"
 			count: 1
-			path: src/Command/ActivateUserCommand.php
+			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Parameter \\#1 \\$username of method Nucleos\\\\UserBundle\\\\Util\\\\UserManipulator\\:\\:changePassword\\(\\) expects string, array\\<string\\>\\|string\\|null given\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:45 will always evaluate to true\\.$#"
 			count: 1
-			path: src/Command/ChangePasswordCommand.php
+			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Parameter \\#2 \\$password of method Nucleos\\\\UserBundle\\\\Util\\\\UserManipulator\\:\\:changePassword\\(\\) expects string, array\\<string\\>\\|string\\|null given\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'FOS\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:45 will always evaluate to true\\.$#"
 			count: 1
-			path: src/Command/ChangePasswordCommand.php
+			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Parameter \\#2 \\.\\.\\.\\$args of function sprintf expects bool\\|float\\|int\\|string\\|null, array\\<string\\>\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/ChangePasswordCommand.php
-
-		-
-			message: "#^Only booleans are allowed in a negated boolean, array\\<string\\>\\|string\\|null given\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle…' and Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser will always evaluate to true\\.$#"
 			count: 2
-			path: src/Command/ChangePasswordCommand.php
+			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Only booleans are allowed in a negated boolean, array\\<string\\>\\|bool\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/CreateUserCommand.php
-
-		-
-			message: "#^Parameter \\#1 \\$username of method Nucleos\\\\UserBundle\\\\Util\\\\UserManipulator\\:\\:create\\(\\) expects string, array\\<string\\>\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/CreateUserCommand.php
-
-		-
-			message: "#^Parameter \\#2 \\$password of method Nucleos\\\\UserBundle\\\\Util\\\\UserManipulator\\:\\:create\\(\\) expects string, array\\<string\\>\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/CreateUserCommand.php
-
-		-
-			message: "#^Parameter \\#3 \\$email of method Nucleos\\\\UserBundle\\\\Util\\\\UserManipulator\\:\\:create\\(\\) expects string, array\\<string\\>\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/CreateUserCommand.php
-
-		-
-			message: "#^Parameter \\#5 \\$superadmin of method Nucleos\\\\UserBundle\\\\Util\\\\UserManipulator\\:\\:create\\(\\) expects bool, array\\<string\\>\\|bool\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/CreateUserCommand.php
-
-		-
-			message: "#^Parameter \\#2 \\.\\.\\.\\$args of function sprintf expects bool\\|float\\|int\\|string\\|null, array\\<string\\>\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/CreateUserCommand.php
-
-		-
-			message: "#^Only booleans are allowed in a negated boolean, array\\<string\\>\\|string\\|null given\\.$#"
-			count: 3
-			path: src/Command/CreateUserCommand.php
-
-		-
-			message: "#^Parameter \\#1 \\$username of method Nucleos\\\\UserBundle\\\\Util\\\\UserManipulator\\:\\:deactivate\\(\\) expects string, array\\<string\\>\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/DeactivateUserCommand.php
-
-		-
-			message: "#^Parameter \\#2 \\.\\.\\.\\$args of function sprintf expects bool\\|float\\|int\\|string\\|null, array\\<string\\>\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/DeactivateUserCommand.php
-
-		-
-			message: "#^Only booleans are allowed in a negated boolean, array\\<string\\>\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/DeactivateUserCommand.php
-
-		-
-			message: "#^Parameter \\#3 \\$username of method Nucleos\\\\UserBundle\\\\Command\\\\RoleCommand\\:\\:executeRoleCommand\\(\\) expects string, array\\<string\\>\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/RoleCommand.php
-
-		-
-			message: "#^Parameter \\#5 \\$role of method Nucleos\\\\UserBundle\\\\Command\\\\RoleCommand\\:\\:executeRoleCommand\\(\\) expects string, array\\<string\\>\\|string\\|null given\\.$#"
-			count: 1
-			path: src/Command/RoleCommand.php
-
-		-
-			message: "#^Only booleans are allowed in a negated boolean, array\\<string\\>\\|string\\|null given\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'FOS\\\\\\\\UserBundle…' and Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser will always evaluate to true\\.$#"
 			count: 2
-			path: src/Command/RoleCommand.php
+			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Call to an undefined method Symfony\\\\Component\\\\Config\\\\Definition\\\\Builder\\\\NodeDefinition\\:\\:children\\(\\)\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle…' and Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyGroup will always evaluate to true\\.$#"
 			count: 1
-			path: src/DependencyInjection/Configuration.php
+			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Parameter \\#1 \\$node of method Nucleos\\\\UserBundle\\\\DependencyInjection\\\\Configuration\\:\\:addResettingSection\\(\\) expects Symfony\\\\Component\\\\Config\\\\Definition\\\\Builder\\\\ArrayNodeDefinition, Symfony\\\\Component\\\\Config\\\\Definition\\\\Builder\\\\NodeDefinition given\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'FOS\\\\\\\\UserBundle…' and Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyGroup will always evaluate to true\\.$#"
 			count: 1
-			path: src/DependencyInjection/Configuration.php
+			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Parameter \\#1 \\$node of method Nucleos\\\\UserBundle\\\\DependencyInjection\\\\Configuration\\:\\:addGroupSection\\(\\) expects Symfony\\\\Component\\\\Config\\\\Definition\\\\Builder\\\\ArrayNodeDefinition, Symfony\\\\Component\\\\Config\\\\Definition\\\\Builder\\\\NodeDefinition given\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyGroup\\:\\:getId\\(\\) should return mixed but return statement is missing\\.$#"
 			count: 1
-			path: src/DependencyInjection/Configuration.php
+			path: tests/Fixtures/LegacyGroup.php
 
 		-
-			message: "#^Parameter \\#1 \\$node of method Nucleos\\\\UserBundle\\\\DependencyInjection\\\\Configuration\\:\\:addServiceSection\\(\\) expects Symfony\\\\Component\\\\Config\\\\Definition\\\\Builder\\\\ArrayNodeDefinition, Symfony\\\\Component\\\\Config\\\\Definition\\\\Builder\\\\NodeDefinition given\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyGroup\\:\\:getName\\(\\) should return string but return statement is missing\\.$#"
 			count: 1
-			path: src/DependencyInjection/Configuration.php
+			path: tests/Fixtures/LegacyGroup.php
 
 		-
-			message: "#^Cannot call method scalarNode\\(\\) on Symfony\\\\Component\\\\Config\\\\Definition\\\\Builder\\\\NodeParentInterface\\|null\\.$#"
-			count: 3
-			path: src/DependencyInjection/Configuration.php
-
-		-
-			message: "#^Property Nucleos\\\\UserBundle\\\\DependencyInjection\\\\NucleosUserExtension\\:\\:\\$doctrineDrivers type has no value type specified in iterable type array\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyGroup\\:\\:hasRole\\(\\) should return bool but return statement is missing\\.$#"
 			count: 1
-			path: src/DependencyInjection/NucleosUserExtension.php
+			path: tests/Fixtures/LegacyGroup.php
 
 		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\DependencyInjection\\\\NucleosUserExtension\\:\\:load\\(\\) has parameter \\$configs with no value type specified in iterable type array\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyGroup\\:\\:getRoles\\(\\) should return array\\<string\\> but return statement is missing\\.$#"
 			count: 1
-			path: src/DependencyInjection/NucleosUserExtension.php
+			path: tests/Fixtures/LegacyGroup.php
 
 		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\DependencyInjection\\\\NucleosUserExtension\\:\\:remapParameters\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyGroup\\:\\:setRoles\\(\\) has parameter \\$roles with no value type specified in iterable type array\\.$#"
 			count: 1
-			path: src/DependencyInjection/NucleosUserExtension.php
+			path: tests/Fixtures/LegacyGroup.php
 
 		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\DependencyInjection\\\\NucleosUserExtension\\:\\:remapParameters\\(\\) has parameter \\$map with no value type specified in iterable type array\\.$#"
+			message: "#^Class Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser implements generic interface FOS\\\\UserBundle\\\\Model\\\\GroupableInterface but does not specify its types\\: GroupTemplate$#"
 			count: 1
-			path: src/DependencyInjection/NucleosUserExtension.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\DependencyInjection\\\\NucleosUserExtension\\:\\:remapParametersNamespaces\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:serialize\\(\\) has no return typehint specified\\.$#"
 			count: 1
-			path: src/DependencyInjection/NucleosUserExtension.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\DependencyInjection\\\\NucleosUserExtension\\:\\:remapParametersNamespaces\\(\\) has parameter \\$namespaces with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/DependencyInjection/NucleosUserExtension.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\DependencyInjection\\\\NucleosUserExtension\\:\\:loadResetting\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/DependencyInjection/NucleosUserExtension.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\DependencyInjection\\\\NucleosUserExtension\\:\\:loadGroups\\(\\) has parameter \\$config with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/DependencyInjection/NucleosUserExtension.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Doctrine\\\\GroupManager\\:\\:findGroupBy\\(\\) has parameter \\$criteria with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Doctrine/GroupManager.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Doctrine\\\\GroupManager\\:\\:findGroupBy\\(\\) should return GroupTemplate of Nucleos\\\\UserBundle\\\\Model\\\\GroupInterface but returns object\\|null\\.$#"
-			count: 1
-			path: src/Doctrine/GroupManager.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Doctrine\\\\GroupManager\\:\\:findGroups\\(\\) should return array\\<GroupTemplate of Nucleos\\\\UserBundle\\\\Model\\\\GroupInterface\\>&array\\<Nucleos\\\\UserBundle\\\\Model\\\\UserInterface\\> but returns array\\<object\\>\\.$#"
-			count: 1
-			path: src/Doctrine/GroupManager.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Doctrine\\\\UserManager\\:\\:findUserBy\\(\\) has parameter \\$criteria with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Doctrine/UserManager.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Doctrine\\\\UserManager\\:\\:findUserBy\\(\\) should return Nucleos\\\\UserBundle\\\\Model\\\\UserInterface\\|null but returns object\\|null\\.$#"
-			count: 1
-			path: src/Doctrine/UserManager.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Doctrine\\\\UserManager\\:\\:findUsers\\(\\) should return array\\<Nucleos\\\\UserBundle\\\\Model\\\\UserInterface\\> but returns array\\<object\\>\\.$#"
-			count: 1
-			path: src/Doctrine/UserManager.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\EventListener\\\\FlashListener\\:\\:trans\\(\\) has parameter \\$params with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/EventListener/FlashListener.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Form\\\\Type\\\\ChangePasswordFormType\\:\\:buildForm\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Form/Type/ChangePasswordFormType.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Form\\\\Type\\\\ResettingFormType\\:\\:buildForm\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Form/Type/ResettingFormType.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Form\\\\Type\\\\UsernameFormType\\:\\:buildForm\\(\\) has parameter \\$options with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Form/Type/UsernameFormType.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Model\\\\Group\\:\\:__construct\\(\\) has parameter \\$roles with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Model/Group.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Model\\\\Group\\:\\:setRoles\\(\\) has parameter \\$roles with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Model/Group.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Model\\\\GroupInterface\\:\\:setRoles\\(\\) has parameter \\$roles with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Model/GroupInterface.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Model\\\\GroupManagerInterface\\:\\:findGroupBy\\(\\) has parameter \\$criteria with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Model/GroupManagerInterface.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Model\\\\User\\:\\:setRoles\\(\\) has parameter \\$roles with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Model/User.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Model\\\\UserInterface\\:\\:setRoles\\(\\) has parameter \\$roles with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Model/UserInterface.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Model\\\\UserManagerInterface\\:\\:findUserBy\\(\\) has parameter \\$criteria with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Model/UserManagerInterface.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Security\\\\UserProvider\\:\\:loadUserByUsername\\(\\) has parameter \\$username with no typehint specified\\.$#"
-			count: 1
-			path: src/Security/UserProvider.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Security\\\\UserProvider\\:\\:supportsClass\\(\\) has parameter \\$class with no typehint specified\\.$#"
-			count: 1
-			path: src/Security/UserProvider.php
-
-		-
-			message: "#^Offset 0 does not exist on array\\|string\\|null\\.$#"
+			message: "#^Return type \\(mixed\\) of method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:serialize\\(\\) should be covariant with return type \\(string\\) of method Serializable\\:\\:serialize\\(\\)$#"
 			count: 2
-			path: tests/DependencyInjection/NucleosUserExtensionTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Offset 1 does not exist on array\\|string\\|null\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:unserialize\\(\\) has no return typehint specified\\.$#"
 			count: 1
-			path: tests/DependencyInjection/NucleosUserExtensionTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Tests\\\\DependencyInjection\\\\NucleosUserExtensionTest\\:\\:getEmptyConfig\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:unserialize\\(\\) has parameter \\$serialized with no typehint specified\\.$#"
 			count: 1
-			path: tests/DependencyInjection/NucleosUserExtensionTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Tests\\\\DependencyInjection\\\\NucleosUserExtensionTest\\:\\:getFullConfig\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:isEqualTo\\(\\) should return bool but return statement is missing\\.$#"
 			count: 1
-			path: tests/DependencyInjection/NucleosUserExtensionTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Property Nucleos\\\\UserBundle\\\\Tests\\\\Mailer\\\\MailerTest\\:\\:\\$swiftMailer \\(Prophecy\\\\Prophecy\\\\ObjectProphecy&Symfony\\\\Component\\\\Mailer\\\\MailerInterface\\) does not accept Prophecy\\\\Prophecy\\\\ObjectProphecy\\<Symfony\\\\Component\\\\Mailer\\\\MailerInterface\\>\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getGroups\\(\\) should return Doctrine\\\\Common\\\\Collections\\\\Collection\\<int, Nucleos\\\\UserBundle\\\\Model\\\\GroupInterface\\> but return statement is missing\\.$#"
 			count: 1
-			path: tests/Mailer/MailerTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Property Nucleos\\\\UserBundle\\\\Tests\\\\Mailer\\\\MailerTest\\:\\:\\$translator \\(Prophecy\\\\Prophecy\\\\ObjectProphecy&Symfony\\\\Contracts\\\\Translation\\\\TranslatorInterface\\) does not accept Prophecy\\\\Prophecy\\\\ObjectProphecy\\<Symfony\\\\Contracts\\\\Translation\\\\TranslatorInterface\\>\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getGroupNames\\(\\) should return array\\<string\\> but return statement is missing\\.$#"
 			count: 1
-			path: tests/Mailer/MailerTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Property Nucleos\\\\UserBundle\\\\Tests\\\\Mailer\\\\MailerTest\\:\\:\\$generator \\(Prophecy\\\\Prophecy\\\\ObjectProphecy&Symfony\\\\Component\\\\Routing\\\\Generator\\\\UrlGeneratorInterface\\) does not accept Prophecy\\\\Prophecy\\\\ObjectProphecy\\<Symfony\\\\Component\\\\Routing\\\\Generator\\\\UrlGeneratorInterface\\>\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:hasGroup\\(\\) should return bool but return statement is missing\\.$#"
 			count: 1
-			path: tests/Mailer/MailerTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Parameter \\#1 \\$mailer of class Nucleos\\\\UserBundle\\\\Mailer\\\\Mailer constructor expects Symfony\\\\Component\\\\Mailer\\\\MailerInterface, object given\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getId\\(\\) should return mixed but return statement is missing\\.$#"
 			count: 1
-			path: tests/Mailer/MailerTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Parameter \\#2 \\$translator of class Nucleos\\\\UserBundle\\\\Mailer\\\\Mailer constructor expects Symfony\\\\Contracts\\\\Translation\\\\TranslatorInterface, object given\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getConfirmationToken\\(\\) should return string\\|null but return statement is missing\\.$#"
 			count: 1
-			path: tests/Mailer/MailerTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Parameter \\#3 \\$router of class Nucleos\\\\UserBundle\\\\Mailer\\\\Mailer constructor expects Symfony\\\\Component\\\\Routing\\\\Generator\\\\UrlGeneratorInterface, object given\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getRoles\\(\\) should return array\\<string\\> but return statement is missing\\.$#"
 			count: 1
-			path: tests/Mailer/MailerTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Tests\\\\Model\\\\UserManagerTest\\:\\:getUserManager\\(\\) has parameter \\$args with no value type specified in iterable type array\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getSalt\\(\\) should return string\\|null but return statement is missing\\.$#"
 			count: 1
-			path: tests/Model/UserManagerTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Tests\\\\Routing\\\\RoutingTest\\:\\:testLoadRouting\\(\\) has parameter \\$methods with no value type specified in iterable type array\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:isSuperAdmin\\(\\) should return bool but return statement is missing\\.$#"
 			count: 1
-			path: tests/Routing/RoutingTest.php
+			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Method Nucleos\\\\UserBundle\\\\Tests\\\\Routing\\\\RoutingTest\\:\\:loadRoutingProvider\\(\\) return type has no value type specified in iterable type array\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getUsername\\(\\) should return string but return statement is missing\\.$#"
 			count: 1
-			path: tests/Routing/RoutingTest.php
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getUsernameCanonical\\(\\) should return string but return statement is missing\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getEmail\\(\\) should return string but return statement is missing\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getEmailCanonical\\(\\) should return string but return statement is missing\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:isAccountNonExpired\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:isAccountNonLocked\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getPassword\\(\\) should return string\\|null but return statement is missing\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:eraseCredentials\\(\\) has no return typehint specified\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:getPlainPassword\\(\\) should return string\\|null but return statement is missing\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:isPasswordRequestNonExpired\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:hasRole\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:setRoles\\(\\) has parameter \\$roles with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:isCredentialsNonExpired\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
+
+		-
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:isEnabled\\(\\) should return bool but return statement is missing\\.$#"
+			count: 1
+			path: tests/Fixtures/LegacyUser.php
 
