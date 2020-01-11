@@ -18,7 +18,8 @@
     ],
     "require": {
         "php": "^7.3",
-        "nucleos/user-bundle": "dev-master"
+        "nucleos/user-bundle": "^1.0",
+        "nucleos/profile-bundle": "^1.0"
     },
     "require-dev": {
         "bamarni/composer-bin-plugin": "^1.3",
