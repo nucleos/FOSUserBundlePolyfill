@@ -17,3 +17,11 @@ Creates a polyfill for [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUs
 ## Warning
 
 This is not a full replacement of the FOSUserBundle. It provides the most basic classes und all shared common model interfaces to use the latest symfony version for bundles, that requires FOSUserBundle.
+
+Documentation
+-------------
+
+The source of the documentation is stored in the `docs/` folder
+in this bundle.
+
+[Read the Documentation](https://docs.nucleos.rocks/)

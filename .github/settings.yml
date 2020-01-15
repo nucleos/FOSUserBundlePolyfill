@@ -3,7 +3,7 @@
 repository:
     name: FOSUserBundlePolyfill
     description: Polyfill to provide base FOSUserBundle model interfaces for legacy applications.
-    homepage: https://core23.de
+    homepage: https://docs.nucleos.rocks/
     topics: symfony, symfony-bundle, bundle, user, polyfill, fosuserbundle, userbundle
 
     default_branch: master
