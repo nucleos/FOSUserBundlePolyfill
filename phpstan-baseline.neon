@@ -1,7 +1,7 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:27 will always evaluate to true\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle\\\\\\\\Model\\\\\\\\UserInterface' and class@anonymous/tests/FOSAliasTest\\.php\\:27 will always evaluate to true\\.$#"
 			count: 1
 			path: tests/FOSAliasTest.php
 
@@ -11,7 +11,7 @@ parameters:
 			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:36 will always evaluate to true\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle\\\\\\\\Model\\\\\\\\GroupableInterface' and class@anonymous/tests/FOSAliasTest\\.php\\:36 will always evaluate to true\\.$#"
 			count: 1
 			path: tests/FOSAliasTest.php
 
@@ -21,7 +21,7 @@ parameters:
 			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:45 will always evaluate to true\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle\\\\\\\\Model\\\\\\\\GroupInterface' and class@anonymous/tests/FOSAliasTest\\.php\\:45 will always evaluate to true\\.$#"
 			count: 1
 			path: tests/FOSAliasTest.php
 
@@ -31,8 +31,8 @@ parameters:
 			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle…' and Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser will always evaluate to true\\.$#"
-			count: 2
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle\\\\\\\\Model\\\\\\\\UserInterface' and Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser will always evaluate to true\\.$#"
+			count: 1
 			path: tests/FOSAliasTest.php
 
 		-
@@ -41,7 +41,12 @@ parameters:
 			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle…' and Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyGroup will always evaluate to true\\.$#"
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle\\\\\\\\Model\\\\\\\\GroupableInterface' and Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser will always evaluate to true\\.$#"
+			count: 1
+			path: tests/FOSAliasTest.php
+
+		-
+			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle\\\\\\\\Model\\\\\\\\GroupInterface' and Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyGroup will always evaluate to true\\.$#"
 			count: 1
 			path: tests/FOSAliasTest.php
 
@@ -81,22 +86,7 @@ parameters:
 			path: tests/Fixtures/LegacyUser.php
 
 		-
-			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:serialize\\(\\) has no return typehint specified\\.$#"
-			count: 1
-			path: tests/Fixtures/LegacyUser.php
-
-		-
-			message: "#^Return type \\(mixed\\) of method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:serialize\\(\\) should be covariant with return type \\(string\\) of method Serializable\\:\\:serialize\\(\\)$#"
-			count: 2
-			path: tests/Fixtures/LegacyUser.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:unserialize\\(\\) has no return typehint specified\\.$#"
-			count: 1
-			path: tests/Fixtures/LegacyUser.php
-
-		-
-			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:unserialize\\(\\) has parameter \\$serialized with no typehint specified\\.$#"
+			message: "#^Method Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser\\:\\:serialize\\(\\) should return string but return statement is missing\\.$#"
 			count: 1
 			path: tests/Fixtures/LegacyUser.php
 
