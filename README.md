@@ -10,7 +10,7 @@ FOSUserBundlePolyfill
 [![Daily Downloads](https://poser.pugx.org/nucleos/fos-user-bundle-polyfill/d/daily)](https://packagist.org/packages/nucleos/fos-user-bundle-polyfill)
 
 [![Continuous Integration](https://github.com/nucleos/FOSUserBundlePolyfill/workflows/Continuous%20Integration/badge.svg)](https://github.com/nucleos/FOSUserBundlePolyfill/actions)
-[![Code Coverage](https://codecov.io/gh/nucleos/FOSUserBundlePolyfill/branch/master/graph/badge.svg)](https://codecov.io/gh/nucleos/FOSUserBundlePolyfill)
+[![Code Coverage](https://codecov.io/gh/nucleos/FOSUserBundlePolyfill/branch/main/graph/badge.svg)](https://codecov.io/gh/nucleos/FOSUserBundlePolyfill)
 
 Creates a polyfill for [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle/) to use [NucleosUserBundle](https://github.com/nucleos/NucleosUserBundle/) as a full replacement.
 
