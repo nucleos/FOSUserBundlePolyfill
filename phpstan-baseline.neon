@@ -6,17 +6,7 @@ parameters:
 			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'FOS\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:27 will always evaluate to true\\.$#"
-			count: 1
-			path: tests/FOSAliasTest.php
-
-		-
 			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle\\\\\\\\Model\\\\\\\\GroupableInterface' and class@anonymous/tests/FOSAliasTest\\.php\\:36 will always evaluate to true\\.$#"
-			count: 1
-			path: tests/FOSAliasTest.php
-
-		-
-			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'FOS\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:36 will always evaluate to true\\.$#"
 			count: 1
 			path: tests/FOSAliasTest.php
 
@@ -26,18 +16,8 @@ parameters:
 			path: tests/FOSAliasTest.php
 
 		-
-			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'FOS\\\\\\\\UserBundle…' and class@anonymous/tests/FOSAliasTest\\.php\\:45 will always evaluate to true\\.$#"
-			count: 1
-			path: tests/FOSAliasTest.php
-
-		-
 			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Nucleos\\\\\\\\UserBundle\\\\\\\\Model\\\\\\\\UserInterface' and Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser will always evaluate to true\\.$#"
 			count: 1
-			path: tests/FOSAliasTest.php
-
-		-
-			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'FOS\\\\\\\\UserBundle…' and Nucleos\\\\UserBundlePolyfill\\\\Tests\\\\Fixtures\\\\LegacyUser will always evaluate to true\\.$#"
-			count: 2
 			path: tests/FOSAliasTest.php
 
 		-
